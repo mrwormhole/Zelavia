@@ -14,6 +14,9 @@ public class IndicatorScript : MonoBehaviour {
     [SerializeField]
     private bool unlocked = false;
 
+    [SerializeField]
+    public SpriteRenderer greenlightSpriteRender;
+
     public GameObject smokeFX; //find a sound for this
     public GameObject fireworkFX; //find a sound for this
 
@@ -60,12 +63,14 @@ public class IndicatorScript : MonoBehaviour {
         if(value == keyValue)
         {
             indicatorSpriteRenderer.color = new Color32(255, 255, 255, 255);
+            greenlightSpriteRender.color = new Color32(255, 255, 255, 255);
             valueTextMesh.text = null;
             unlocked = true;
         }
         else
         {
             indicatorSpriteRenderer.color = new Color32(255, 255, 255, 80);
+            greenlightSpriteRender.color = new Color32(255, 255, 255, 0);
             valueTextMesh.text = keyValue.ToString();
             unlocked = false;
         }
