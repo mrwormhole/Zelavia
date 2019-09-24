@@ -1,5 +1,5 @@
 # Zelavia 
-( Built with love :heart: )
+( Made with love :heart: and Unity )
 Release version of my unique and fun puzzle mobile game built with Unity Engine
 
 Take a dive right in, enjoy and most importantly relax! 
