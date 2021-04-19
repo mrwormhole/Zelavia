@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Indicator
+  - Tile
+  - Line
+  - TouchController
+  - LevelGenerator
+  - UIManager
+  - FadeScreen
+  - MenuManager
+  - DifficultyPanel
+  - EnergyCount
+  - EnergyHUD
+  - MenuPanel
+  - PlayButton
+  - LeaderboardsManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Midground
+  - Foreground
+  - Puzzle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1337842617
+    locked: 0
+  - name: Midground
+    uniqueID: 1895232795
+    locked: 0
+  - name: Foreground
+    uniqueID: 3856651701
+    locked: 0
+  - name: Puzzle
+    uniqueID: 1533158707
+    locked: 0

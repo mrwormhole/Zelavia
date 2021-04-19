@@ -1,0 +1,5 @@
+com.goldenhand.zelavia v1.0
+	userKey.keystore
+	keystore password:goldenhand1611
+		alias:mrwormhole
+		password:36757315760
